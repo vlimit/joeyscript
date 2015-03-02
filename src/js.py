@@ -66,13 +66,14 @@ if __name__ == '__main__':
             elif char == 'b':
                 mip.distanceDrive(-0.25)
             elif char == 'l':
-                mip.turnByAngle(-95)
+                mip.turnByAngle(-100)
             elif char == 'r':
-                mip.turnByAngle(95)
+                mip.turnByAngle(100)
             elif char == 'o':
-                mip.turnByAngle(410)
+                mip.turnByAngle(450)
             elif char == 'm':
-                mip.playSound(106)
+                mip.playSound(47)
             elif char == 's':
                 mip.playSound(35)
+            time.sleep(1)
 
